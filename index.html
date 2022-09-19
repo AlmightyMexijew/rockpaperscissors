@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Rock--Paper--Scissors!!!</h1>
+    <!--Design note: Put !!! in h1 to shift colors l->r order-->
+    <div class="container">
+        <div>
+            <p id="playerchoice"></p>
+            <p id="aichoice"></p>
+        </div>
+        <h2>Choose Your Play</h2>
+        <button id="rock">Keep on ROCKing me baby</button>
+        <button id="paper">Not so much a PAPER tiger</button>
+        <button id="scissors">Edward SCISSORhands</button>
+    </div>
+    <p>The premise of the game is simple: Pick one button, the AI will respond, and then a winner is declared. If there is a tie, it will also be declared. Plays, wins, and ties are tracked accordingly.</p>
+    <div id="score">
+        <span id="userWin">User Win: <span id="userWinCount"> </span> </span>
+        <span id="aiWin">AI Win: </span><span id="aiWinCount"> </span> </span>
+        <span id="tie">Tie: </span> <span id="tieCount"> </span>
+    </div>
+    <p id="plays">Plays so far:</p>
+    <script src="main.js"></script>
+</body>
+</html>
